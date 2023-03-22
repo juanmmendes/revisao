@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Mendes</title>
+</head>
+<body>
+    <script>
+        let num= prompt("Digite um número")
+        let num2= num*-1
+    if (num>0){
+        switch(true){
+            case(num%15==0):
+            alert("FizzBuzz")
+            break;
+            case(num%3==0 ):
+            alert("Fizz")
+            break;
+            case(num%5==0):
+            alert("Buzz")
+            break;
+            default:
+            alert(num)
+            break;
+        }
+    }
+    else{ 
+        switch(true){
+            case(num%15==0):
+            alert("FizzBuzz")
+            break;
+            case(num2%3==0 ):
+            alert("Fizz")
+            break;
+            case(num2%5==0):
+            alert("Buzz")
+            break;
+            default:
+            alert(num)
+            break;
+        }
+        
+    }
+    </script>
+    
+</body>
+</html>
